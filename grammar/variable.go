@@ -53,6 +53,8 @@ func printDefaultValue() {
 func printGlobalVariable()  {
 	fmt.Println(globalInt)
 	fmt.Println(globalString)
+	globalString = "world"
+	fmt.Println(globalString)
 	fmt.Println(globalBoolean)
 }
 
