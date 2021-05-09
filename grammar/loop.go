@@ -92,5 +92,3 @@ func gotoTest()  {
 		println(idx, element)
 	}
 }
-
-
